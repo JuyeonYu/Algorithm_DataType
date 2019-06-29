@@ -27,9 +27,10 @@ def binaey_serach(list, item):
 
     return None
 
-my_list = [1,3,5,7,9, 2]
+my_list = [1,3,5]
 
 #print("이진 검색: " + binaey_serach(my_list, 123))
 #print(selection_sort.selection_sort(my_list))
 #countdown.countdown_while(10)
-countdown.countdown_self(10)
+#countdown.countdown_self(10)
+print(countdown.quick_sort(my_list))
