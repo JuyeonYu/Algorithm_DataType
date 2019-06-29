@@ -15,4 +15,4 @@ def selection_sort(arr):
         newArr.append(arr.pop(smallest))
     return newArr
 
-print(selection_sort([5,3,7,2,10]))
+#print(selection_sort([5,3,7,2,10]))
