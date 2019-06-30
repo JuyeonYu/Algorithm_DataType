@@ -1,6 +1,8 @@
 # hello coding 알고리즘 p10
+import hashmap
 import selection_sort
 import countdown
+import dijkstra
 
 def binaey_serach(list, item):
     low = 0;
@@ -33,4 +35,8 @@ my_list = [1,3,5]
 #print(selection_sort.selection_sort(my_list))
 #countdown.countdown_while(10)
 #countdown.countdown_self(10)
-print(countdown.quick_sort(my_list))
+#print(countdown.quick_sort(my_list))
+#print(hashmap.search("i"))
+#print(hashmap.shortest_way())
+
+print(dijkstra.test())
