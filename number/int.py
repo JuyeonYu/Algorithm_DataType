@@ -11,3 +11,11 @@ print(int('11', 2)) # 2진수로 표현된 문자열 '11'을 10진수로 표현�
 
 # divmod(a,b) a를 b로 나눌때 몫과 나머지를 반환한다.
 print(divmod(45,6))
+
+# 내장 시퀀스 슬라이싱 연산자 seq[시작:끝:스탭] 스탭의 의미 뭔지 모르겠음
+word = "공부해서 더러운꼴 보지말자"
+print(word[0])
+print(word[-1])
+print(word[0:3])
+print(word[-3:])
+
