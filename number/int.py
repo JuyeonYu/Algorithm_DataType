@@ -18,4 +18,23 @@ print(word[0])
 print(word[-1])
 print(word[0:3])
 print(word[-3:])
+print(word[5:])
 
+#문자열 메소드
+# A.join(a) 리스트 a에 있는 모든 문자열은 하나의 단일 문자열 A로 결합
+singer = ["아이유", "볼빨간사춘기", "방탄소년단"]
+print("-".join(singer))
+print("-".join(reversed(singer)))
+
+#lust, rjust /
+# A.ljust(width, fillchat) 문자열 A 맨 처음부터 문자열을 포함한 길이 width만큼 fillchar를 채운다.
+dancer = "마이클잭슨"
+print(dancer.ljust(10, "*"))
+print(dancer.rjust(10, "*"))
+
+#A.format() 문자열 A에 변수 추가 하거나 형식화
+"{0} {1}".format("안녕", "나야")
+
+#f string / 파이썬 3.6이상부터 사용가능 기존 %나 format 방식 대체
+name = "알프레도"
+print(f"그의 이름은 {name!r}입니다") # !r을 붙이면 변수 양옆 외따옴표 repr(name) 과 같은 결과
