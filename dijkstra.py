@@ -48,3 +48,5 @@ while node is not None:
            parents[n] = node
     processed.append(node)
     node = find_lowest_node(costs)
+
+    테스트입니다.

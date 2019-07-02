@@ -38,3 +38,4 @@ print(dancer.rjust(10, "*"))
 #f string / 파이썬 3.6이상부터 사용가능 기존 %나 format 방식 대체
 name = "알프레도"
 print(f"그의 이름은 {name!r}입니다") # !r을 붙이면 변수 양옆 외따옴표 repr(name) 과 같은 결과
+
