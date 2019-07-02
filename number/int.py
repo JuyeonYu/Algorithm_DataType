@@ -39,3 +39,14 @@ print(dancer.rjust(10, "*"))
 name = "알프레도"
 print(f"그의 이름은 {name!r}입니다") # !r을 붙이면 변수 양옆 외따옴표 repr(name) 과 같은 결과
 
+#리스트 컴프리헨션
+#[항목 for 항목 in 반복 가능한 객체]
+#[표현식 for 항목 in 반복 가능한 객체]
+#[표현식 for 항목 in 반복 가능한 객체 if 조건문]
+
+a = [y for y in range(1900, 1940) if y%4 ==0]
+print("리스트 컴프리헨션1: ", a)
+b = [2**i for i in range(12)]
+print("리스트컴프리헨션2: ", b)
+c = [x for x in b if x%4 ==0]
+print("리스트컴프리헨션3: ", c)

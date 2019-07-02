@@ -49,4 +49,3 @@ while node is not None:
     processed.append(node)
     node = find_lowest_node(costs)
 
-    테스트입니다.
