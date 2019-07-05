@@ -8,3 +8,11 @@ def remove_duplicated_in_list(list):
     for num in list:
         dictionary.setdefault(num, None)
     return len(dictionary)
+
+
+def remove_duplicated_in_list_using_set(list):
+    sett = set()
+    for num in list:
+        sett.add(num)
+
+    return len(sett)

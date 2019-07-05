@@ -5,6 +5,7 @@ import countdown
 # import dijkstra
 import remove_duplicated_in_list
 import recursive
+import single_number
 
 def binaey_serach(list, item):
     low = 0;
@@ -32,8 +33,8 @@ def binaey_serach(list, item):
     return None
 
 my_list = [4,7,2,10,1,0,3,5]
-my_list2 = [1,2,3,3,3,3,3,3,3,3,4,5,5,5,5,5,5,5,5,6,6,7,7,8,9,100]
-
+my_list2 = [1,1,1,2,3,3,3,3,3,3,3,3,4,5,5,5,5,5,5,5,5,6,6,7,7,8,9,100]
+my_list3 = [1,1,4,4,8,10,10]
 #print("이진 검색: " + binaey_serach(my_list, 123))
 #print(selection_sort.selection_sort(my_list))
 #countdown.countdown_while(10)
@@ -47,3 +48,5 @@ my_list2 = [1,2,3,3,3,3,3,3,3,3,4,5,5,5,5,5,5,5,5,6,6,7,7,8,9,100]
 print(recursive.find_bigest(my_list))
 print(recursive.answer_find_bigest(my_list2))
 print(remove_duplicated_in_list.remove_duplicated_in_list(my_list2))
+print(remove_duplicated_in_list.remove_duplicated_in_list_using_set(my_list2))
+print(single_number.fine_single_number(my_list3))
