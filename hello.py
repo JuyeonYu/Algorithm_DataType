@@ -3,6 +3,7 @@ import hashmap
 import selection_sort
 import countdown
 # import dijkstra
+import remove_duplicated_in_list
 import recursive
 
 def binaey_serach(list, item):
@@ -31,7 +32,7 @@ def binaey_serach(list, item):
     return None
 
 my_list = [4,7,2,10,1,0,3,5]
-my_list2 = [1,2,3]
+my_list2 = [1,2,3,3,3,3,3,3,3,3,4,5,5,5,5,5,5,5,5,6,6,7,7,8,9,100]
 
 #print("이진 검색: " + binaey_serach(my_list, 123))
 #print(selection_sort.selection_sort(my_list))
@@ -45,3 +46,4 @@ my_list2 = [1,2,3]
 
 print(recursive.find_bigest(my_list))
 print(recursive.answer_find_bigest(my_list2))
+print(remove_duplicated_in_list.remove_duplicated_in_list(my_list2))
