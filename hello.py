@@ -6,6 +6,7 @@ import countdown
 import remove_duplicated_in_list
 import recursive
 import single_number
+import z
 
 def binaey_serach(list, item):
     low = 0;
@@ -45,8 +46,9 @@ my_list3 = [1,1,4,4,8,10,10]
 
 # print(dijkstra.test())
 
-print(recursive.find_bigest(my_list))
-print(recursive.answer_find_bigest(my_list2))
-print(remove_duplicated_in_list.remove_duplicated_in_list(my_list2))
-print(remove_duplicated_in_list.remove_duplicated_in_list_using_set(my_list2))
-print(single_number.fine_single_number(my_list3))
+# print(recursive.find_bigest(my_list))
+# print(recursive.answer_find_bigest(my_list2))
+# print(remove_duplicated_in_list.remove_duplicated_in_list(my_list2))
+# print(remove_duplicated_in_list.remove_duplicated_in_list_using_set(my_list2))
+# print(single_number.fine_single_number(my_list3))
+print(z.get_answer(z.get_location(2,3,3)))
