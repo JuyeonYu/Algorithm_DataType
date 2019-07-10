@@ -52,3 +52,7 @@ my_list3 = [1,1,4,4,8,10,10]
 # print(remove_duplicated_in_list.remove_duplicated_in_list_using_set(my_list2))
 # print(single_number.fine_single_number(my_list3))
 print(z.get_answer(z.get_location(3,7,7)))
+list = input()
+
+print(z.get_answer(z.get_location(int(list[0]),int(list[2]),int(list[4]))))
+# print(z.get_answer(z.get_location(3,7,7)))
