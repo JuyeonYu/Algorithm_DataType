@@ -12,13 +12,13 @@
 location_list = []
 def get_location(n,r,c):
     if n is not 0:
-        if r <= (2 ** n) // 2 :
+        if r < (2 ** n) // 2 :
             r_location = {1,2}
         else:
             r_location = {3,4}
             r = r - (2 ** (n-1))
 
-        if c <= (2 ** n) // 2 :
+        if c < (2 ** n) // 2 :
             c_loation = {1,3}
         else:
             c_loation = {2,4}
@@ -36,6 +36,3 @@ def get_answer(location_list): #몇번째로 방문했는지 구함
         return 0
     t1 = 2 ** (2 * (len(location_list))) * (n-1)
     return t1 + get_answer(location_list)
-
-
-
