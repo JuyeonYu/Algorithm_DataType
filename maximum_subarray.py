@@ -3,21 +3,22 @@
 # 가장 큰 수 + 두번째로 큰 수 이다.
 
 def get_answer(get_list):
-    largest = get_list[0]
-    answer_list = []
+    largest = 0
 
-    for num in get_list[1:]:
+    #가장 큰 수 찾기
+    for num in get_list:
         if num > largest:
             largest = num
 
-    answer_list.append(largest)
+    answer = largest
     get_list.remove(largest)
 
-    if len(answer_list) != 2:
-        largest = 0
-        for num in get_list[1:]:
-            if num > largest:
-                largest = num
-    answer_list.append(largest)
+    # 가장 큰 수 초기화
+    largest = 0
 
-    return answer_list[0] + answer_list[1]
+    # 두번째로 큰 수 찾기
+    for num in get_list:
+        if num > largest:
+            largest = num
+    answer = answer + largest
+    return answer
