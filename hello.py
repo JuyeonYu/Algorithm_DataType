@@ -9,11 +9,8 @@ import single_number
 import ReverseWord
 import z
 import Josephus
-<<<<<<< Updated upstream
 import reverse_string
-=======
 import maximum_subarray
->>>>>>> Stashed changes
 
 def binaey_serach(list, item):
     low = 0;
@@ -64,7 +61,7 @@ my_list3 = [1,1,4,4,8,10,10]
 # print(z.get_answer(z.get_location(int(list[0]),int(list[2]),int(list[4]))))
 # print(z.get_answer(z.get_location(3,7,7)))
 # print(ReverseWord.reverse_word(input()))
-print(Josephus.get_answer(7, 3))
-print(reverse_string.return_reverse_string(input()))
+# print(Josephus.get_answer(7, 3))
+# print(reverse_string.return_reverse_string(input()))
 # print(Josephus.get_answer(7, 3))
 print(maximum_subarray.get_answer(my_list))
