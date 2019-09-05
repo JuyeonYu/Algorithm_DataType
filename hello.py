@@ -11,6 +11,7 @@ import z
 import Josephus
 import reverse_string
 import maximum_subarray
+from NoExponentiation import NoExponentiation
 
 def binaey_serach(list, item):
     low = 0;
@@ -64,4 +65,8 @@ my_list3 = [1,1,4,4,8,10,10]
 # print(Josephus.get_answer(7, 3))
 # print(reverse_string.return_reverse_string(input()))
 # print(Josephus.get_answer(7, 3))
-print(maximum_subarray.get_answer(my_list))
+# print(maximum_subarray.get_answer(my_list))
+
+n = NoExponentiation(100,110)
+
+print(n.getNoExponentiation())
