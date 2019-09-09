@@ -12,6 +12,7 @@ import Josephus
 import reverse_string
 import maximum_subarray
 from NoExponentiation import NoExponentiation
+from MakeItOne import MakeItOne
 
 def binaey_serach(list, item):
     low = 0;
@@ -67,6 +68,8 @@ my_list3 = [1,1,4,4,8,10,10]
 # print(Josephus.get_answer(7, 3))
 # print(maximum_subarray.get_answer(my_list))
 
-n = NoExponentiation(100,110)
+# n = NoExponentiation(100,110)
+# print(n.getNoExponentiation())
 
-print(n.getNoExponentiation())
+makeItOne = MakeItOne(10)
+print(makeItOne.getAnswer())
