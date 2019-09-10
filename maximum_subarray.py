@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # https://leetcode.com/problems/maximum-subarray/description/
 
 # 숫자가 들어있는 배열이 주어진다
@@ -21,7 +20,6 @@ def answer(list):
         answer(list)
         return list[0]
 
-=======
 # 배열 안에 두 수를 더했을 때 가장 큰 수
 # 해결법: 배열 안의 가장 큰 수는
 # 가장 큰 수 + 두번째로 큰 수 이다.

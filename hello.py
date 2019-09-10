@@ -10,9 +10,10 @@ import ReverseWord
 import z
 import Josephus
 import reverse_string
-import maximum_subarray
+# import maximum_subarray
 from NoExponentiation import NoExponentiation
 from MakeItOne import MakeItOne
+from Tyle2XN import Tyle2X
 
 def binaey_serach(list, item):
     low = 0;
@@ -71,5 +72,8 @@ my_list3 = [1,1,4,4,8,10,10]
 # n = NoExponentiation(100,110)
 # print(n.getNoExponentiation())
 
-makeItOne = MakeItOne(10)
-print(makeItOne.getAnswer())
+# makeItOne = MakeItOne(10)
+# print(makeItOne.getAnswer())
+
+tyle2X = Tyle2X(9)
+print(tyle2X.getFibonacxciNumber())
